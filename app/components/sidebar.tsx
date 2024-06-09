@@ -158,7 +158,7 @@ export function SideBar(props: { className?: string }) {
           BaimoChat
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          白墨麒麟提供的免费ChatGPT镜像站<br>不存储对话内容 完全公益<br>无常赞助：<img src="https://cdn.jsdelivr.net/gh/Zhou-Shilin/picx-images-hosting@master/sponser.webp" />
+          白墨麒麟提供的免费ChatGPT镜像站<br />不存储对话内容 公益免费<br />广告位招租联系: baimoqilin@gmail.com
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
