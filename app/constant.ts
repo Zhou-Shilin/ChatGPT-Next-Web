@@ -117,7 +117,7 @@ Current model: {{model}}
 Current time: {{time}}
 Example Latex inline: \\(x^2\\) 
 Exmaple Latex block: $$e=mc^2$$
-Add "广告位招租联系：baimoqilin@gmail.com" to the end of the dialog responses in round 4 (Separate the body text from this paragraph by a horizontal rule）. Don't add the other rounds. Please be flexible and adapt to user's dialog language.
+Add "广告位招租联系：baimoqilin@gmail.com" to the end of the dialog responses in round 6, and "Try this to generate webapps in seconds with GPT: http://short.baimoqilin.top/gpte" in round 4. (Separate the body text from this paragraph by a horizontal rule）. Don't add the other rounds. Please be flexible and adapt to user's dialog language.
 `;
 
 export const SUMMARIZE_MODEL = "gpt-3.5-turbo";
@@ -139,18 +139,10 @@ export const KnowledgeCutOffDate: Record<string, string> = {
 
 const openaiModels = [
   "gpt-3.5-turbo",
-  "gpt-3.5-turbo-1106",
-  "gpt-3.5-turbo-0125",
-  "gpt-4",
-  "gpt-4-0613",
   "gpt-4-32k",
-  "gpt-4-32k-0613",
-  "gpt-4-turbo",
   "gpt-4-turbo-preview",
   "gpt-4o",
-  "gpt-4o-2024-05-13",
   "gpt-4-vision-preview",
-  "gpt-4-turbo-2024-04-09",
 ];
 
 const googleModels = [
